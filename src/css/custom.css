@@ -1,0 +1,20 @@
+/* Concept styling only, not a final brand design. */
+:root {--ifm-color-primary:#1577b8;--ifm-color-primary-dark:#11699f;--ifm-color-primary-darker:#0e618e;--ifm-color-primary-darkest:#0b4b73;--ifm-color-primary-light:#208aca;--ifm-color-primary-lighter:#2896d9;--ifm-color-primary-lightest:#49a9e3;--ifm-font-family-base:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--ifm-heading-font-family:var(--ifm-font-family-base);--ifm-navbar-height:4rem;--ifm-background-color:#fbfcfe;--ifm-sidebar-width:315px}
+.navbar {box-shadow:0 1px 0 rgba(22,41,66,.08)}
+.navbar__brand {gap:12px}.navbar__logo {height:29px}
+.menu__link {font-size:.88rem;border-radius:6px;line-height:1.55}.menu__list-item-collapsible:hover {background:#eef6fa}
+.theme-doc-sidebar-container {border-right:1px solid #e8edf2!important}
+.markdown h1 {font-size:2rem;letter-spacing:-.03em}.markdown h2 {font-size:1.4rem}
+.heroKB {background:linear-gradient(115deg,#102a42 0%,#104e7c 70%,#126996 100%);color:white;padding:76px 0 66px}
+.heroKB h1 {font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.04em;color:white;line-height:1.12}
+.heroKB p{font-size:1.09rem;opacity:.86;max-width:680px}
+.kbTag {color:#b4dff5;letter-spacing:.13em;text-transform:uppercase;font-size:.73rem;font-weight:800}
+.kbCards {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:32px 0 50px}
+.kbCard{display:block;color:inherit!important;border:1px solid #e2e8ef;border-radius:13px;padding:24px;min-height:145px;background:white;box-shadow:0 3px 20px rgba(30,58,87,.03);transition:transform .15s,box-shadow .15s}
+.kbCard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 10px 24px rgba(30,58,87,.09)}
+.kbCard strong{display:block;font-size:1.1rem;margin-bottom:8px}.kbCard small{color:#60748a;line-height:1.6}
+.kbEyebrow {color:#648092;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;margin-bottom:8px}
+.kbNote{border:1px solid #d6e5f1;background:#f2f8fc;border-radius:12px;padding:18px;margin:22px 0;color:#31506a}
+.reviewTable {width:100%;border-collapse:collapse}.reviewTable td,.reviewTable th {padding:12px;vertical-align:top}
+@media(max-width:840px){.kbCards{grid-template-columns:1fr 1fr}.heroKB{padding:42px 0}}
+@media(max-width:550px){.kbCards{grid-template-columns:1fr}}
