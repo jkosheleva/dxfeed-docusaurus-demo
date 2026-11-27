@@ -52,7 +52,8 @@ const config = {
   themeConfig: {
     colorMode: {defaultMode: 'light', respectPrefersColorScheme: true},
     navbar: {
-      title: 'dxFeed KB',
+      title: 'KB',
+      style: 'dark',
       logo: {alt: 'dxFeed', src: 'img/logo.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'docs', position: 'left', label: 'Documentation'},
@@ -60,7 +61,7 @@ const config = {
       ],
     },
     footer: {
-      style: 'light',
+      style: 'dark',
       links: [
         {
           title: 'Documentation',
